@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    hikari:
+      jdbc-url: jdbc:mysql://localhost:3306/dbpic?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+      username: root
+      password: h@1j33=q
+      driver-class-name: com.mysql.jdbc.Driver
+  jackson:
+    default-property-inclusion: non_null
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+root-location: /app/web/images
+root-url: http://47.100.121.52/images/
