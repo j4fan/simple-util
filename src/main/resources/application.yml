@@ -11,4 +11,4 @@ spring:
     time-zone: GMT+8
 
 root-location: /app/web/images
-root-url: http://47.100.121.52/images/
+root-url: http://www.j4fan.xyz/images/
