@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+    <Properties>
+        <Property name="app.name">simple-utils</Property>
+        <Property name="pattern">%d %p [${app.name}] [%t] [%X{X-B3-TraceId},%X{X-B3-SpanId}] %C{1.}.%M(%L) - %m%n</Property>
+        <Property name="log.path">log</Property>
+    </Properties>
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="${pattern}"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="STDOUT"/>
+        </Root>
+    </Loggers>
+</Configuration>

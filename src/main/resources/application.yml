@@ -12,3 +12,4 @@ spring:
 
 root-location: /app/web/images
 root-url: http://www.j4fan.xyz/images/
+
